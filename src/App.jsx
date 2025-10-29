@@ -9,7 +9,7 @@ const App = () => {
   const [city, setCity] = useState('');
   const [unit, setUnit] = useState('C');
   const [loading, setLoading] = useState(false);
-  const API_KEY = '704acf8c8957a8a6f434d29bb705e332'; // Replace with your OpenWeather API key
+  const API_KEY = '704acf8c8957a8a6f434d29bb705e332'; 
 
   const fetchWeather = async () => {
     if (!city) return;

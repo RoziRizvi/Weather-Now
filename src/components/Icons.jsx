@@ -1,4 +1,4 @@
-// components/Icons.jsx
+
 import React from 'react';
 import { Wind, Droplets, Sunrise, Sunset } from 'lucide-react';
 
